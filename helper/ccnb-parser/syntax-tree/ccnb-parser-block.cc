@@ -52,7 +52,7 @@ Ptr<Block> Block::ParseBlock (Buffer::Iterator &start)
     // We will have problems if length field is more than 32 bits. Though it's really impossible
     uint8_t byte = 0;
     while (!start.IsEnd() && !(byte & CCN_TT_HBIT)) {
-        value <<= 8;
+        value <<= 7;
         value += byte;
         byte = start.
                ReadU8 ();
