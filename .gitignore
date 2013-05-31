@@ -1,0 +1,41 @@
+*~
+*.a
+*.o
+*.pyc
+*.pyo
+
+# buildsystem files
+.deps/
+.dirstamp
+aclocal.m4
+autom4te.cache/
+build-aux/
+m4/libtool.m4
+m4/lt*.m4
+/config.h
+/config.h.in
+/config.log
+/config.status
+/configure
+/libtool
+/Makefile
+/Makefile.in
+stamp-*
+
+# compiled binaries
+/ndnd
+/fakeGps
+/photoConsumer
+/photoProducer
+/trafficConsumer
+/trafficProducer
+
+# generated docs
+html/
+
+# editors, IDEs, ...
+.cproject
+.project
+.ycm_extra_conf.py
+/Makefile.am.user
+/*.xcworkspace/
